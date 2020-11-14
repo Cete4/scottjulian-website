@@ -11,8 +11,9 @@ body {
   min-height: 100vh;
 }
 #logo {
-  width: 15%;
-  height: 15%;
+  width: 30%;
+  height: 30%;
+  align-items: center;
 }
 #content-wrap {
   padding-bottom: 3rem; /* Footer height */
