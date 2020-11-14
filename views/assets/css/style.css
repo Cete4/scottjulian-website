@@ -1,0 +1,72 @@
+body {
+  background-image: url(../images/background.jpg);
+  color: black;
+}
+.nav-item {
+  color: black;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3rem; /* Footer height */
+}
+
+.jumbotron {
+  border-radius: 5px;
+}
+
+.lead {
+  text-align: center;
+}
+
+#footer {
+  opacity: 0.8;
+  background-color: #273b4d;
+  size: 10px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; /* Footer height */
+}
+
+/* Style all font awesome icons */
+.fa {
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+}
+
+/* Set a specific color for each brand after some different looks they look better with a simple universal color */
+
+/* Facebook */
+.fa-linkedin {
+  color: white;
+}
+
+/* Facebook */
+.fa-github {
+  color: white;
+}
+
+/* Twitter */
+.fa-file-alt {
+  color: white;
+}
+
+footer {
+  color: white;
+}
