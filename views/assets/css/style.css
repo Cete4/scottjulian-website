@@ -5,9 +5,9 @@ body {
   color: black;
 }
 
-
 .nav-item {
   color: black;
+  font-weight: 500;
 }
 
 #page-container {
@@ -22,12 +22,8 @@ body {
   padding-bottom: 3rem; /* Footer height */
 }
 
-.jumbotron {
-  border-radius: 5px;
-}
-
-.lead {
-  text-align: center;
+.click:hover {
+  color: black;
 }
 
 #footer {
