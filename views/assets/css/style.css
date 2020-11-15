@@ -4,36 +4,7 @@ body {
 
   color: black;
 }
-fixed-bg {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
 
-.scroll-bg {
-  background-color: #0f0f0a;
-}
-
-/* first section */
-
-.bg-1 {
-  background-image: url("../images/backgroundimages/20201104-Julian_ScottP3-2.jpg");
-  height: 100%;
-  width: 100%;
-}
-
-/* third section */
-
-.bg-2 {
-  background-image: url("../images/backgroundimages/TrafficSignLightroomFinal.jpg");
-}
-
-/* fifth section */
-
-.bg-3 {
-  background-image: url("../bg3.jpg");
-}
 
 .nav-item {
   color: black;
