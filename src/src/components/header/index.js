@@ -1,12 +1,13 @@
 import './style.css';
-import {Col, Row} from "react-bootstrap";
+import {Col, Nav, Row} from "react-bootstrap";
 import websitelogo from '../../assets/images/websitegeneric/websitelogo.jpg';
+import {Link} from "react-router-dom";
 
 function Header() {
     return (
         <Row className='centeredrow'>
             <Col>
-                <a>Home</a>
+                <a href='/'>Home</a>
             </Col>
             <Col>
                 <a>About</a>
