@@ -1,0 +1,13 @@
+/*Global Vars*/
+:root {
+    --lightblue: #2F6673;
+    --darkblue: #1A3940;
+    --bluegreen: #3E8C7E;
+    --pastelgreen: #DDF2DC;
+    --peach: #F2CDAC;
+}
+
+#root {
+    width: 100%;
+    background-color: var(--pastelgreen);
+}
