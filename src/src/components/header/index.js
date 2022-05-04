@@ -1,26 +1,30 @@
 import './style.css';
-import {Col, Nav, Row} from "react-bootstrap";
+import {Nav, Navbar, Row} from "react-bootstrap";
 import websitelogo from '../../assets/images/websitegeneric/websitelogo.jpg';
-import {Link} from "react-router-dom";
+import {faBarsStaggered} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function Header() {
     return (
         <Row className='centeredrow'>
-            <Col>
-                <a href='/'>Home</a>
-            </Col>
-            <Col>
-                <a>About</a>
-            </Col>
-            <Col>
-                <img className='websitelogo' src={websitelogo} alt='Website Logo'/>
-            </Col>
-            <Col>
-                <a>Portfolio</a>
-            </Col>
-            <Col>
-                <a>Contact</a>
-            </Col>
+            <Navbar collapseOnSelect expand="lg">
+                <Navbar.Brand>
+                    <img className='websitelogo' src={websitelogo} alt='Website Logo'/>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav">
+                    <FontAwesomeIcon icon={faBarsStaggered} className="fa-2xl"/>
+                </Navbar.Toggle>
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto">
+                        {/*TODO: Add the hrefs here*/}
+                        <Nav.Link href="">Home</Nav.Link>
+                        <Nav.Link href="">Portfolio</Nav.Link>
+                        <Nav.Link href="">About</Nav.Link>
+                        <Nav.Link href="">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+            <FontAwesomeIcon icon="fa fa-bars-sort"/>
         </Row>
     );
 }
