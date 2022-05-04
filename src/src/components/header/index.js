@@ -17,10 +17,10 @@ function Header() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         {/*TODO: Add the hrefs here*/}
-                        <Nav.Link href="">Home</Nav.Link>
-                        <Nav.Link href="">Portfolio</Nav.Link>
-                        <Nav.Link href="">About</Nav.Link>
-                        <Nav.Link href="">Contact</Nav.Link>
+                        <Nav.Link href="" className="headerlink"><a className='headertag'>Home</a></Nav.Link>
+                        <Nav.Link href="" className="headerlink"><a className='headertag'>Portfolio</a></Nav.Link>
+                        <Nav.Link href="" className="headerlink"><a className='headertag'>About</a></Nav.Link>
+                        <Nav.Link href="" className="headerlink"><a className='headertag'>Contact</a></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -10,25 +10,17 @@
     border-radius: 5px;
 }
 
-li {
-    float: left;
-    list-style: none;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+.headerlink {
+    margin-left: 30px;
+    top: 50%;
+    vertical-align: center;
 }
 
 .headertag {
-    font-family: forma-djr-micro, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
-    font-weight: 200;
-    top: 50%;
-    vertical-align: center;
+    font-weight: 400;
+    font-size: 25px;
     text-decoration: none;
     color: black;
 }

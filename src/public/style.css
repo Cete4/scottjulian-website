@@ -7,7 +7,12 @@
     --peach: #F2CDAC;
 }
 
+body {
+    width: 100%;
+    background-color: #DDF2DC;
+}
+
 #root {
     width: 100%;
-    background-color: var(--pastelgreen);
+    background-color: #DDF2DC;
 }
