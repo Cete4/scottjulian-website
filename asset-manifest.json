@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbc1f752.css",
-    "main.js": "/static/js/main.fbfb1110.js",
-    "static/media/websitelogo.jpg": "/static/media/websitelogo.88e9090323e26d67db89.jpg",
-    "index.html": "/index.html",
-    "main.dbc1f752.css.map": "/static/css/main.dbc1f752.css.map",
-    "main.fbfb1110.js.map": "/static/js/main.fbfb1110.js.map"
+    "main.css": "/scottjulian-website/static/css/main.dbc1f752.css",
+    "main.js": "/scottjulian-website/static/js/main.26717164.js",
+    "static/media/websitelogo.jpg": "/scottjulian-website/static/media/websitelogo.88e9090323e26d67db89.jpg",
+    "index.html": "/scottjulian-website/index.html",
+    "main.dbc1f752.css.map": "/scottjulian-website/static/css/main.dbc1f752.css.map",
+    "main.26717164.js.map": "/scottjulian-website/static/js/main.26717164.js.map"
   },
   "entrypoints": [
     "static/css/main.dbc1f752.css",
-    "static/js/main.fbfb1110.js"
+    "static/js/main.26717164.js"
   ]
 }
