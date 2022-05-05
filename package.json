@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "homepage": "http://cete4.github.io/scottjulian-website",
   "name": "src",
   "version": "0.1.0",
   "private": true,
