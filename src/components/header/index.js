@@ -1,5 +1,4 @@
 import './style.css';
-import {Nav, Navbar, Row} from "react-bootstrap";
 import websitelogo from '../../assets/images/websitegeneric/websitelogo.jpg';
 import {faBarsStaggered} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
