@@ -1,20 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Col, Container, Row} from "react-bootstrap";
 import Header from "./components/header/index.js";
 import Footer from "./components/footer/index.js";
 import About from "./components/about/index.js";
+import {Container, Grid} from "@mui/material";
 
 function App() {
     return (
         <div>
-            <Container fluid>
+            <Container>
                 <Header/>
-                <Row>
-                    <Col>
-                        <About/>
-                    </Col>
-                </Row>
+                <Grid item xs={12}>
+                    <About/>
+                </Grid>
                 <Footer/>
             </Container>
         </div>
